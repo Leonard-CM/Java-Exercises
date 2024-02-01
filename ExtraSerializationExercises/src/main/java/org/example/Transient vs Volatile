@@ -1,0 +1,16 @@
+Volatile Variable:
+
+ A volatile variable is a variable that can be modified by multiple threads or processes simultaneously.
+ Its used when you want to make sure that any changes to the variable are immediately visible to other threads or processes.
+ Volatile variables are often used in multithreaded programming to ensure proper communication between different threads
+
+
+Transient Variable:
+
+A transient variable is typically used in the context of object serialization, which is the process of converting an object into a byte stream.
+Transient variables are not included in the serialized form of the object. When an object is deserialized, transient variables are initialized with their default values.
+They are used when there are certain variables in an object that should not be persisted or saved during the serialization process.
+
+
+
+

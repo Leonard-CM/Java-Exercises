@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exercises.data.DataObject1Test" time="0.709" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\Downloads\interview-exercises\SerializationExercises\target\test-classes;C:\Users\HP\Downloads\interview-exercises\SerializationExercises\target\classes;C:\Users\HP\Downloads\interview-exercises\Serialization\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Harare"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire4812238512435225287\surefirebooter-20240201215803459_3.jar C:\Users\HP\AppData\Local\Temp\surefire4812238512435225287 2024-02-01T21-57-57_885-jvmRun1 surefire-20240201215803459_1tmp surefire_0-20240201215803459_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\Downloads\interview-exercises\SerializationExercises\target\test-classes;C:\Users\HP\Downloads\interview-exercises\SerializationExercises\target\classes;C:\Users\HP\Downloads\interview-exercises\Serialization\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="basedir" value="C:\Users\HP\Downloads\interview-exercises\SerializationExercises"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire4812238512435225287\surefirebooter-20240201215803459_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.2"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="C:\Users\HP\Downloads\interview-exercises\SerializationExercises"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Users\HP\AppData\Roaming\.dotnet;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\.dotnet\tools;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="simpleSerializationTest" classname="exercises.data.DataObject1Test" time="0.634">
+    <system-out><![CDATA[property1 = 0 property2 = 0 sourceIdentifier = null ComplexTypeProperty1 = 0 ComplexTypeProperty2 =  0
+property1 = 1 property2 = 1 sourceIdentifier = null ComplexTypeProperty1 = 1 ComplexTypeProperty2 =  1
+property1 = 2 property2 = 2 sourceIdentifier = null ComplexTypeProperty1 = 2 ComplexTypeProperty2 =  2
+property1 = 3 property2 = 3 sourceIdentifier = null ComplexTypeProperty1 = 3 ComplexTypeProperty2 =  3
+property1 = 4 property2 = 4 sourceIdentifier = null ComplexTypeProperty1 = 4 ComplexTypeProperty2 =  4
+property1 = 5 property2 = 5 sourceIdentifier = null ComplexTypeProperty1 = 5 ComplexTypeProperty2 =  5
+property1 = 6 property2 = 6 sourceIdentifier = null ComplexTypeProperty1 = 6 ComplexTypeProperty2 =  6
+property1 = 7 property2 = 7 sourceIdentifier = null ComplexTypeProperty1 = 7 ComplexTypeProperty2 =  7
+property1 = 8 property2 = 8 sourceIdentifier = null ComplexTypeProperty1 = 8 ComplexTypeProperty2 =  8
+property1 = 9 property2 = 9 sourceIdentifier = null ComplexTypeProperty1 = 9 ComplexTypeProperty2 =  9
+property1 = 10 property2 = 10 sourceIdentifier = null ComplexTypeProperty1 = 10 ComplexTypeProperty2 =  10
+property1 = 11 property2 = 11 sourceIdentifier = null ComplexTypeProperty1 = 11 ComplexTypeProperty2 =  11
+property1 = 12 property2 = 12 sourceIdentifier = null ComplexTypeProperty1 = 12 ComplexTypeProperty2 =  12
+property1 = 13 property2 = 13 sourceIdentifier = null ComplexTypeProperty1 = 13 ComplexTypeProperty2 =  13
+property1 = 14 property2 = 14 sourceIdentifier = null ComplexTypeProperty1 = 14 ComplexTypeProperty2 =  14
+property1 = 15 property2 = 15 sourceIdentifier = null ComplexTypeProperty1 = 15 ComplexTypeProperty2 =  15
+property1 = 16 property2 = 16 sourceIdentifier = null ComplexTypeProperty1 = 16 ComplexTypeProperty2 =  16
+property1 = 17 property2 = 17 sourceIdentifier = null ComplexTypeProperty1 = 17 ComplexTypeProperty2 =  17
+property1 = 18 property2 = 18 sourceIdentifier = null ComplexTypeProperty1 = 18 ComplexTypeProperty2 =  18
+property1 = 19 property2 = 19 sourceIdentifier = null ComplexTypeProperty1 = 19 ComplexTypeProperty2 =  19
+property1 = 20 property2 = 20 sourceIdentifier = null ComplexTypeProperty1 = 20 ComplexTypeProperty2 =  20
+property1 = 21 property2 = 21 sourceIdentifier = null ComplexTypeProperty1 = 21 ComplexTypeProperty2 =  21
+property1 = 22 property2 = 22 sourceIdentifier = null ComplexTypeProperty1 = 22 ComplexTypeProperty2 =  22
+property1 = 23 property2 = 23 sourceIdentifier = null ComplexTypeProperty1 = 23 ComplexTypeProperty2 =  23
+property1 = 24 property2 = 24 sourceIdentifier = null ComplexTypeProperty1 = 24 ComplexTypeProperty2 =  24
+property1 = 25 property2 = 25 sourceIdentifier = null ComplexTypeProperty1 = 25 ComplexTypeProperty2 =  25
+property1 = 26 property2 = 26 sourceIdentifier = null ComplexTypeProperty1 = 26 ComplexTypeProperty2 =  26
+property1 = 27 property2 = 27 sourceIdentifier = null ComplexTypeProperty1 = 27 ComplexTypeProperty2 =  27
+property1 = 28 property2 = 28 sourceIdentifier = null ComplexTypeProperty1 = 28 ComplexTypeProperty2 =  28
+property1 = 29 property2 = 29 sourceIdentifier = null ComplexTypeProperty1 = 29 ComplexTypeProperty2 =  29
+property1 = 30 property2 = 30 sourceIdentifier = null ComplexTypeProperty1 = 30 ComplexTypeProperty2 =  30
+property1 = 31 property2 = 31 sourceIdentifier = null ComplexTypeProperty1 = 31 ComplexTypeProperty2 =  31
+property1 = 32 property2 = 32 sourceIdentifier = null ComplexTypeProperty1 = 32 ComplexTypeProperty2 =  32
+property1 = 33 property2 = 33 sourceIdentifier = null ComplexTypeProperty1 = 33 ComplexTypeProperty2 =  33
+property1 = 34 property2 = 34 sourceIdentifier = null ComplexTypeProperty1 = 34 ComplexTypeProperty2 =  34
+property1 = 35 property2 = 35 sourceIdentifier = null ComplexTypeProperty1 = 35 ComplexTypeProperty2 =  35
+property1 = 36 property2 = 36 sourceIdentifier = null ComplexTypeProperty1 = 36 ComplexTypeProperty2 =  36
+property1 = 37 property2 = 37 sourceIdentifier = null ComplexTypeProperty1 = 37 ComplexTypeProperty2 =  37
+property1 = 38 property2 = 38 sourceIdentifier = null ComplexTypeProperty1 = 38 ComplexTypeProperty2 =  38
+property1 = 39 property2 = 39 sourceIdentifier = null ComplexTypeProperty1 = 39 ComplexTypeProperty2 =  39
+property1 = 40 property2 = 40 sourceIdentifier = null ComplexTypeProperty1 = 40 ComplexTypeProperty2 =  40
+property1 = 41 property2 = 41 sourceIdentifier = null ComplexTypeProperty1 = 41 ComplexTypeProperty2 =  41
+property1 = 42 property2 = 42 sourceIdentifier = null ComplexTypeProperty1 = 42 ComplexTypeProperty2 =  42
+property1 = 43 property2 = 43 sourceIdentifier = null ComplexTypeProperty1 = 43 ComplexTypeProperty2 =  43
+property1 = 44 property2 = 44 sourceIdentifier = null ComplexTypeProperty1 = 44 ComplexTypeProperty2 =  44
+property1 = 45 property2 = 45 sourceIdentifier = null ComplexTypeProperty1 = 45 ComplexTypeProperty2 =  45
+property1 = 46 property2 = 46 sourceIdentifier = null ComplexTypeProperty1 = 46 ComplexTypeProperty2 =  46
+property1 = 47 property2 = 47 sourceIdentifier = null ComplexTypeProperty1 = 47 ComplexTypeProperty2 =  47
+property1 = 48 property2 = 48 sourceIdentifier = null ComplexTypeProperty1 = 48 ComplexTypeProperty2 =  48
+property1 = 49 property2 = 49 sourceIdentifier = null ComplexTypeProperty1 = 49 ComplexTypeProperty2 =  49
+property1 = 50 property2 = 50 sourceIdentifier = null ComplexTypeProperty1 = 50 ComplexTypeProperty2 =  50
+property1 = 51 property2 = 51 sourceIdentifier = null ComplexTypeProperty1 = 51 ComplexTypeProperty2 =  51
+property1 = 52 property2 = 52 sourceIdentifier = null ComplexTypeProperty1 = 52 ComplexTypeProperty2 =  52
+property1 = 53 property2 = 53 sourceIdentifier = null ComplexTypeProperty1 = 53 ComplexTypeProperty2 =  53
+property1 = 54 property2 = 54 sourceIdentifier = null ComplexTypeProperty1 = 54 ComplexTypeProperty2 =  54
+property1 = 55 property2 = 55 sourceIdentifier = null ComplexTypeProperty1 = 55 ComplexTypeProperty2 =  55
+property1 = 56 property2 = 56 sourceIdentifier = null ComplexTypeProperty1 = 56 ComplexTypeProperty2 =  56
+property1 = 57 property2 = 57 sourceIdentifier = null ComplexTypeProperty1 = 57 ComplexTypeProperty2 =  57
+property1 = 58 property2 = 58 sourceIdentifier = null ComplexTypeProperty1 = 58 ComplexTypeProperty2 =  58
+property1 = 59 property2 = 59 sourceIdentifier = null ComplexTypeProperty1 = 59 ComplexTypeProperty2 =  59
+property1 = 60 property2 = 60 sourceIdentifier = null ComplexTypeProperty1 = 60 ComplexTypeProperty2 =  60
+property1 = 61 property2 = 61 sourceIdentifier = null ComplexTypeProperty1 = 61 ComplexTypeProperty2 =  61
+property1 = 62 property2 = 62 sourceIdentifier = null ComplexTypeProperty1 = 62 ComplexTypeProperty2 =  62
+property1 = 63 property2 = 63 sourceIdentifier = null ComplexTypeProperty1 = 63 ComplexTypeProperty2 =  63
+property1 = 64 property2 = 64 sourceIdentifier = null ComplexTypeProperty1 = 64 ComplexTypeProperty2 =  64
+property1 = 65 property2 = 65 sourceIdentifier = null ComplexTypeProperty1 = 65 ComplexTypeProperty2 =  65
+property1 = 66 property2 = 66 sourceIdentifier = null ComplexTypeProperty1 = 66 ComplexTypeProperty2 =  66
+property1 = 67 property2 = 67 sourceIdentifier = null ComplexTypeProperty1 = 67 ComplexTypeProperty2 =  67
+property1 = 68 property2 = 68 sourceIdentifier = null ComplexTypeProperty1 = 68 ComplexTypeProperty2 =  68
+property1 = 69 property2 = 69 sourceIdentifier = null ComplexTypeProperty1 = 69 ComplexTypeProperty2 =  69
+property1 = 70 property2 = 70 sourceIdentifier = null ComplexTypeProperty1 = 70 ComplexTypeProperty2 =  70
+property1 = 71 property2 = 71 sourceIdentifier = null ComplexTypeProperty1 = 71 ComplexTypeProperty2 =  71
+property1 = 72 property2 = 72 sourceIdentifier = null ComplexTypeProperty1 = 72 ComplexTypeProperty2 =  72
+property1 = 73 property2 = 73 sourceIdentifier = null ComplexTypeProperty1 = 73 ComplexTypeProperty2 =  73
+property1 = 74 property2 = 74 sourceIdentifier = null ComplexTypeProperty1 = 74 ComplexTypeProperty2 =  74
+property1 = 75 property2 = 75 sourceIdentifier = null ComplexTypeProperty1 = 75 ComplexTypeProperty2 =  75
+property1 = 76 property2 = 76 sourceIdentifier = null ComplexTypeProperty1 = 76 ComplexTypeProperty2 =  76
+property1 = 77 property2 = 77 sourceIdentifier = null ComplexTypeProperty1 = 77 ComplexTypeProperty2 =  77
+property1 = 78 property2 = 78 sourceIdentifier = null ComplexTypeProperty1 = 78 ComplexTypeProperty2 =  78
+property1 = 79 property2 = 79 sourceIdentifier = null ComplexTypeProperty1 = 79 ComplexTypeProperty2 =  79
+property1 = 80 property2 = 80 sourceIdentifier = null ComplexTypeProperty1 = 80 ComplexTypeProperty2 =  80
+property1 = 81 property2 = 81 sourceIdentifier = null ComplexTypeProperty1 = 81 ComplexTypeProperty2 =  81
+property1 = 82 property2 = 82 sourceIdentifier = null ComplexTypeProperty1 = 82 ComplexTypeProperty2 =  82
+property1 = 83 property2 = 83 sourceIdentifier = null ComplexTypeProperty1 = 83 ComplexTypeProperty2 =  83
+property1 = 84 property2 = 84 sourceIdentifier = null ComplexTypeProperty1 = 84 ComplexTypeProperty2 =  84
+property1 = 85 property2 = 85 sourceIdentifier = null ComplexTypeProperty1 = 85 ComplexTypeProperty2 =  85
+property1 = 86 property2 = 86 sourceIdentifier = null ComplexTypeProperty1 = 86 ComplexTypeProperty2 =  86
+property1 = 87 property2 = 87 sourceIdentifier = null ComplexTypeProperty1 = 87 ComplexTypeProperty2 =  87
+property1 = 88 property2 = 88 sourceIdentifier = null ComplexTypeProperty1 = 88 ComplexTypeProperty2 =  88
+property1 = 89 property2 = 89 sourceIdentifier = null ComplexTypeProperty1 = 89 ComplexTypeProperty2 =  89
+property1 = 90 property2 = 90 sourceIdentifier = null ComplexTypeProperty1 = 90 ComplexTypeProperty2 =  90
+property1 = 91 property2 = 91 sourceIdentifier = null ComplexTypeProperty1 = 91 ComplexTypeProperty2 =  91
+property1 = 92 property2 = 92 sourceIdentifier = null ComplexTypeProperty1 = 92 ComplexTypeProperty2 =  92
+property1 = 93 property2 = 93 sourceIdentifier = null ComplexTypeProperty1 = 93 ComplexTypeProperty2 =  93
+property1 = 94 property2 = 94 sourceIdentifier = null ComplexTypeProperty1 = 94 ComplexTypeProperty2 =  94
+property1 = 95 property2 = 95 sourceIdentifier = null ComplexTypeProperty1 = 95 ComplexTypeProperty2 =  95
+property1 = 96 property2 = 96 sourceIdentifier = null ComplexTypeProperty1 = 96 ComplexTypeProperty2 =  96
+property1 = 97 property2 = 97 sourceIdentifier = null ComplexTypeProperty1 = 97 ComplexTypeProperty2 =  97
+property1 = 98 property2 = 98 sourceIdentifier = null ComplexTypeProperty1 = 98 ComplexTypeProperty2 =  98
+property1 = 99 property2 = 99 sourceIdentifier = null ComplexTypeProperty1 = 99 ComplexTypeProperty2 =  99
+]]></system-out>
+  </testcase>
+</testsuite>
